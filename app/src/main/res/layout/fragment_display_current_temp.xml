@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DisplayCurrentTemp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cityNameTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tempValueTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textSize="56sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/unitTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="oC"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="2dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/conditionTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+</LinearLayout>
+
+</FrameLayout>
